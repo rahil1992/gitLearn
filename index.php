@@ -14,9 +14,7 @@
 </head>
 <body>
     <?php
-        echo "Hello World"
-        $output = shell_exec('ls'); 
-        echo "<pre>$output</pre>"; 
+        echo "Hello World";
     ?>
 </body>
 </html>
