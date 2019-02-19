@@ -1,3 +1,4 @@
 <?php
-echo shell_exec('./pull.sh');
+$output =shell_exec('git pull');
+echo $output;
 ?>
